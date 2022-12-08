@@ -10,16 +10,16 @@ let gif = document.getElementById("gif");
 let songItems = Array.from(document.getElementsByClassName("songItem"));
 
 let song = [
-    {songName: "Let Me Love You" , songPath :'songs/1.mp3' , coverPath: "covers/1.jpg" },
-    {songName: "Marjawan" , songPath :'songs/2.mp3' , coverPath: "covers/2.jpg" },
-    {songName: "Let Me Love You" , songPath :'songs/3.mp3' , coverPath: "covers/3.jpg" },
-    {songName: "Let Me Love You" , songPath :'songs/4.mp3' , coverPath: "covers/4.jpg" },
-    {songName: "Let Me Love You" , songPath :'songs/5.mp3' , coverPath: "covers/5.jpg" },
-    {songName: "Let Me Love You" , songPath :'songs/6.mp3' , coverPath: "covers/6.jpg" },
-    {songName: "Let Me Love You" , songPath :'songs/7.mp3' , coverPath: "covers/7.jpg" },
-    {songName: "Let Me Love You" , songPath :'songs/8.mp3' , coverPath: "covers/8.jpg" },
-    {songName: "Let Me Love You" , songPath :'songs/9.mp3' , coverPath: "covers/9.jpg" },
-    {songName: "Let Me Love You" , songPath :'songs/10.mp3' , coverPath: "covers/10.jpg" },
+    {songName: "Warriyo-Mortals[NCS Release]" , songPath :'songs/1.mp3' , coverPath: "covers/1.jpg" },
+    {songName: "Cielo Huma-Huma" , songPath :'songs/2.mp3' , coverPath: "covers/2.jpg" },
+    {songName: "DEAF KEV - Invincible" , songPath :'songs/3.mp3' , coverPath: "covers/3.jpg" },
+    {songName: "MY HEART" , songPath :'songs/4.mp3' , coverPath: "covers/4.jpg" },
+    {songName: "Janji-Heroes Tonight-feat johnning" , songPath :'songs/5.mp3' , coverPath: "covers/5.jpg" },
+    {songName: "Rabba Salam-E-Ishq" , songPath :'songs/6.mp3' , coverPath: "covers/6.jpg" },
+    {songName: "Sakhiyaan" , songPath :'songs/7.mp3' , coverPath: "covers/7.jpg" },
+    {songName: "Muskuraha-Mitraz" , songPath :'songs/8.mp3' , coverPath: "covers/8.jpg" },
+    {songName: "Akhiyaan-Mitraz" , songPath :'songs/9.mp3' , coverPath: "covers/9.jpg" },
+    {songName: "Tune Kaha - Prateek kuhad" , songPath :'songs/10.mp3' , coverPath: "covers/10.jpg" },
 ]
 songItems.forEach((element , i) => {
     console.log(element , i);
